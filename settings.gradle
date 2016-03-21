@@ -1,2 +1,4 @@
-rootProject.name = 'js.angular'
-
+include 'serverApp'
+include 'main-module:server'
+include 'main-module:common'
+include 'main-module:web'

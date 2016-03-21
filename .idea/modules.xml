@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/angularity.iml" filepath="$PROJECT_DIR$/angularity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/js.angular.iml" filepath="$PROJECT_DIR$/js.angular.iml" />
     </modules>
   </component>
 </project>
