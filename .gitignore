@@ -1,0 +1,20 @@
+target
+*.iml
+*.ipr
+*.iws
+*.ids
+/out/
+/data/
+data-test/
+.idea
+.gradle
+gradle.bat
+build
+classes
+/local/
+*.log
+/indexes
+*.temp
+
+#ignore thumbnails created by windows
+Thumbs.db

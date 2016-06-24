@@ -9,14 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/main-module" />
+            <option value="$PROJECT_DIR$/main-module/common" />
+            <option value="$PROJECT_DIR$/main-module/server" />
+            <option value="$PROJECT_DIR$/main-module/web" />
+            <option value="$PROJECT_DIR$/serverApp" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-          </set>
-        </option>
       </GradleProjectSettings>
     </option>
   </component>

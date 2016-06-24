@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/angularity.iml" filepath="$PROJECT_DIR$/angularity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/js.angular.iml" filepath="$PROJECT_DIR$/js.angular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity_main.iml" group="angularity" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity_test.iml" group="angularity" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common.iml" group="main-module/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common_main.iml" group="main-module/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common_test.iml" group="main-module/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module.iml" group="main-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module_main.iml" group="main-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module_test.iml" group="main-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server.iml" group="main-module/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp.iml" group="serverApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp_main.iml" group="serverApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp_test.iml" group="serverApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server_main.iml" group="main-module/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server_test.iml" group="main-module/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web.iml" group="main-module/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web_main.iml" group="main-module/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web_test.iml" group="main-module/web" />
     </modules>
   </component>
 </project>
