@@ -1,0 +1,4 @@
+dependencies {
+  compile project(':market:common')
+  compile group: 'org.springframework', name: 'spring-webmvc', version: rootProject.ext.springVersion
+}

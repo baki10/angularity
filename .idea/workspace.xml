@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="added gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbUpdater/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/db/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/db/src/main/java/js/angular/market/db/main_changelog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/resources/conf/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/web/src/main/resources/webconf/webContext.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/MyExample.2016-03-21.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/base-module.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/common/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/common/common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/main-module.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/server/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/server/server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/server/src/main/java/js/angular/server/serverContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/web/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/web/src/main/java/js/angular/web/webContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-module/web/web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/serverApp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/src/main/resources/conf/database.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/hello.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main-module/web/src/main/java/js/angular/web/controller/HelloController.java" afterPath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/images/Blue-Fish-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/images/gold-fish-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/images/shark-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/images/starfish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/common/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/common/src/main/java/js/angular/common/HelloWorldService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/AbstractDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/Dao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/EntityClassConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/PlayerDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/SimpleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/BaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Identified.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/IdentifiedEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/VersionedEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/service/HelloWorldServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/serverContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/web/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/dispatcherContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/aquarium.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/aquaScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/menuScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/versions.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/build.gradle" afterPath="$PROJECT_DIR$/serverApp/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="angularity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,17 +104,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbUpdater/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="146">
               <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataSourceContext.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataSourceContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -2763,12 +2755,19 @@
       <option name="project" value="LOCAL" />
       <updated>1466790499547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor">
+      <created>1466800642459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466800642459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2776,8 +2775,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2810,7 +2809,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2960,14 +2960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2978,8 +2970,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbUpdater/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="146">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,11 @@
+dependencies {
+  compile project(':market:common')
+
+  compile group: 'org.springframework', name: 'spring-orm', version: rootProject.ext.springVersion
+  compile group: 'org.springframework', name: 'spring-jdbc', version: rootProject.ext.springVersion
+  compile group: 'org.springframework', name: 'spring-context', version: rootProject.ext.springVersion
+  compile group: 'org.hibernate', name: 'hibernate-core', version: rootProject.ext.hibernateVersion
+  compile group: 'org.hibernate', name: 'hibernate-ehcache', version: rootProject.ext.hibernateVersion
+  compile group: 'org.postgresql', name: 'postgresql', version: rootProject.ext.postgresqlVersion
+  compile group: 'org.apache.commons', name:'commons-dbcp2', version: rootProject.ext.dbcpVersion
+}

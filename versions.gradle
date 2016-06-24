@@ -1,0 +1,11 @@
+rootProject.ext {
+  sourceCompatibility = '1.8'
+  hibernateVersion = '5.1.0.Final'
+  springVersion = '4.2.5.RELEASE'
+  postgresqlVersion = '9.4-1201-jdbc41'
+  gradleVersion = '2.5'
+  dbcpVersion = '2.1.1'
+  servletVersion = '2.5'
+  jclOverSlf4jVersion = '1.7.12'
+  logbackVersion = '1.1.3'
+}
