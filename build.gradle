@@ -1,8 +1,10 @@
+apply from: 'versions.gradle'
+
 allprojects {
   apply plugin: 'java'
   apply plugin: 'idea'
 
-  sourceCompatibility = JavaVersion.VERSION_1_8
+  sourceCompatibility = rootProject.ext.sourceCompatibility
 
   repositories {
     mavenCentral()
@@ -10,7 +12,9 @@ allprojects {
 
   sourceSets {
     main {
-      resources.srcDirs = ['src/main/java', 'src/main/resources', 'buildSrc/src/main/resources']
+      resources{
+        srcDirs = ['src/main/java', 'src/main/resources', 'buildSrc/src/main/resources']
+      }
     }
   }
 
@@ -30,5 +34,5 @@ task jettyRun(dependsOn: ':serverApp:jettyRun') {}
 task jettyStop(dependsOn: ':serverApp:jettyStop') {}
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.12'
+  gradleVersion = rootProject.ext.gradleVersion
 }

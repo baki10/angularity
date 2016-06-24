@@ -1,4 +1,0 @@
-dependencies {
-  compile project(':main-module:server')
-  compile project(':main-module:web')
-} 

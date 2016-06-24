@@ -19,12 +19,30 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="angular_market_main" target="1.8" />
+      <module name="angular_market_test" target="1.8" />
       <module name="angularity_main" target="1.8" />
       <module name="angularity_test" target="1.8" />
       <module name="common_main" target="1.8" />
       <module name="common_test" target="1.8" />
+      <module name="db_main" target="1.8" />
+      <module name="db_test" target="1.8" />
+      <module name="dbUpdater_main" target="1.8" />
+      <module name="dbUpdater_test" target="1.8" />
       <module name="main-module_main" target="1.8" />
       <module name="main-module_test" target="1.8" />
+      <module name="main_main" target="1.8" />
+      <module name="main_test" target="1.8" />
+      <module name="market-common_main" target="1.8" />
+      <module name="market-common_test" target="1.8" />
+      <module name="market-db_main" target="1.8" />
+      <module name="market-db_test" target="1.8" />
+      <module name="market-server_main" target="1.8" />
+      <module name="market-server_test" target="1.8" />
+      <module name="market-web_main" target="1.8" />
+      <module name="market-web_test" target="1.8" />
+      <module name="market_main" target="1.8" />
+      <module name="market_test" target="1.8" />
       <module name="server_main" target="1.8" />
       <module name="server_test" target="1.8" />
       <module name="serverApp_main" target="1.8" />

@@ -2,24 +2,46 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angular_market.iml" filepath="$PROJECT_DIR$/.idea/modules/angular_market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angular_market_main.iml" filepath="$PROJECT_DIR$/.idea/modules/angular_market_main.iml" group="angular_market" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angular_market_test.iml" filepath="$PROJECT_DIR$/.idea/modules/angular_market_test.iml" group="angular_market" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity_main.iml" group="angularity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/angularity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/angularity_test.iml" group="angularity" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common.iml" group="main-module/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common_main.iml" group="main-module/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/common/common_test.iml" group="main-module/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module.iml" group="main-module" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module_main.iml" group="main-module" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/main-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/main-module_test.iml" group="main-module" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server.iml" group="main-module/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/market/common/common.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/market/common/common_main.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/market/common/common_test.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/db/db.iml" filepath="$PROJECT_DIR$/.idea/modules/market/db/db.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater.iml" filepath="$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater.iml" group="dbUpdater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater_main.iml" group="dbUpdater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dbUpdater/dbUpdater_test.iml" group="dbUpdater" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/db/db_main.iml" filepath="$PROJECT_DIR$/.idea/modules/market/db/db_main.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/db/db_test.iml" filepath="$PROJECT_DIR$/.idea/modules/market/db/db_test.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1100146899/main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1100146899/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1100146899/main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1100146899/main_main.iml" group="main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1100146899/main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1100146899/main_test.iml" group="main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/market.iml" filepath="$PROJECT_DIR$/.idea/modules/market/market.iml" group="market" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/market-common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/market-common.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/market-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/market-common_main.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/market-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/market-common_test.iml" group="market/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db/market-db.iml" filepath="$PROJECT_DIR$/.idea/modules/db/market-db.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db/market-db_main.iml" filepath="$PROJECT_DIR$/.idea/modules/db/market-db_main.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db/market-db_test.iml" filepath="$PROJECT_DIR$/.idea/modules/db/market-db_test.iml" group="market/db" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/market-server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/market-server.iml" group="market/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/market-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/market-server_main.iml" group="market/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/market-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/market-server_test.iml" group="market/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/market-web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/market-web.iml" group="market/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/market-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/market-web_main.iml" group="market/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/market-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/market-web_test.iml" group="market/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/market_main.iml" filepath="$PROJECT_DIR$/.idea/modules/market/market_main.iml" group="market" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/market_test.iml" filepath="$PROJECT_DIR$/.idea/modules/market/market_test.iml" group="market" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/market/server/server.iml" group="market/server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp.iml" group="serverApp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp_main.iml" group="serverApp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/serverApp/serverApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/serverApp/serverApp_test.iml" group="serverApp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server_main.iml" group="main-module/server" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/server/server_test.iml" group="main-module/server" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web.iml" group="main-module/web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web_main.iml" group="main-module/web" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main-module/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main-module/web/web_test.iml" group="main-module/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/market/server/server_main.iml" group="market/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/market/server/server_test.iml" group="market/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/market/web/web.iml" group="market/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/market/web/web_main.iml" group="market/web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/market/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/market/web/web_test.iml" group="market/web" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,0 @@
-def springVersion = '4.2.5.RELEASE'
-
-dependencies {
-  compile group: 'org.springframework', name: 'spring-orm', version: springVersion
-  compile group: 'org.springframework', name: 'spring-jdbc', version: springVersion
-
-}

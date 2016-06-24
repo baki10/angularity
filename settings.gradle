@@ -1,4 +1,8 @@
+rootProject.name = 'angular_market'
+
 include 'serverApp'
-include 'main-module:server'
-include 'main-module:common'
-include 'main-module:web'
+include 'dbUpdater'
+include 'market:server'
+include 'market:common'
+include 'market:web'
+include 'market:db'

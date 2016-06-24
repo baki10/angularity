@@ -9,10 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/main-module" />
-            <option value="$PROJECT_DIR$/main-module/common" />
-            <option value="$PROJECT_DIR$/main-module/server" />
-            <option value="$PROJECT_DIR$/main-module/web" />
+            <option value="$PROJECT_DIR$/dbUpdater" />
+            <option value="$PROJECT_DIR$/market" />
+            <option value="$PROJECT_DIR$/market/common" />
+            <option value="$PROJECT_DIR$/market/db" />
+            <option value="$PROJECT_DIR$/market/server" />
+            <option value="$PROJECT_DIR$/market/web" />
             <option value="$PROJECT_DIR$/serverApp" />
           </set>
         </option>

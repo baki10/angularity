@@ -1,0 +1,39 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'org.postgresql:postgresql:' + rootProject.ext.postgresqlVersion
+    classpath files(rootProject.getProjectDir().getPath() +'/dbUpdater/src/main/resources/')
+    classpath files(rootProject.getProjectDir().getPath() +'/market/db/src/main/java/')
+  }
+}
+plugins {
+  id 'org.liquibase.gradle' version '1.2.1'
+}
+
+repositories {
+  mavenCentral()
+}
+
+Properties props = new Properties();
+InputStream inputStream = new FileInputStream(rootProject.getProjectDir().getPath() + '/conf/project.properties');
+try {
+  props.load(inputStream);
+} finally {
+  inputStream.close()
+}
+
+liquibase {
+
+  activities {
+    main {
+      changeLogFile rootProject.getProjectDir().getPath() +'/market/db/src/main/java/js/angular/market/db/main_changelog.xml'
+      url props.getProperty('jdbc.url')
+      username props.getProperty('jdbc.username')
+      password props.getProperty('jdbc.password')
+      referenceUrl props.getProperty('jdbc.url')
+    }
+  }
+  runList = 'main'
+}
