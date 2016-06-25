@@ -6,7 +6,6 @@ target
 /out/
 /data/
 data-test/
-.idea/workspace.xml
 .gradle
 gradle.bat
 build
@@ -21,3 +20,4 @@ Thumbs.db
 .idea/libraries/
 .idea/modules/
 .idea/uiDesigner.xml
+.idea/workspace.xml
