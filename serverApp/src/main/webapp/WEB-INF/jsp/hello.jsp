@@ -20,5 +20,7 @@
     <a href="lesson4">Zamyikaniya</a>
     <hr/>
     <a href="lesson5">AJAX</a>
+    <hr/>
+    <a href="angularPage">Angular</a>
 </body>
 </html>

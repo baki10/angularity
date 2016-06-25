@@ -39,9 +39,21 @@ public class HelloController {
 	public String showLesson5() {
 		return "lesson5";
 	}
+
 	@RequestMapping(value = "/lesson5", method = RequestMethod.POST)
 	public @ResponseBody
 	String responseLesson5() {
 		return "Text from server";
 	}
+
+	@RequestMapping(value = "/list", method = RequestMethod.GET)
+	public String list() {
+		return "list";
+	}
+
+	@RequestMapping(value = "/detail", method = RequestMethod.GET)
+	public String detail() {
+		return "detail";
+	}
+
 }
