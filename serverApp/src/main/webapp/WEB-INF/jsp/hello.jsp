@@ -7,12 +7,16 @@
 </head>
 <body>
     ${message}
-		<hr/>
-		<script>
-				addButton();
-		</script>
-		<div id = "menuList"></div>
+	<hr/>
+	<script>
+		addButton();
+	</script>
+	<div id = "menuList"></div>
     <hr/>
-		<a href="<c:url value="/aquarium" />">Aquarium</a>
+	<a href="<c:url value="/aquarium" />">Aquarium</a>
+    <hr/>
+    <a href="lesson4">Zamyikaniya</a>
+    <hr/>
+    <a href="lesson5">AJAX</a>
 </body>
 </html>

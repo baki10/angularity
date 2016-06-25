@@ -6,13 +6,26 @@
     <script src="<c:url value="/resources/js/aquaScript.js" />"></script>
 </head>
 <body>
-		<div id = "aquaDiv"></div>
-		<img src = "<c:url value="/resources/images/gold-fish-icon.png" />"/ id = "goldFish" style = "visibility: hidden;">
-		<img src = "<c:url value="/resources/images/Blue-Fish-icon.png" />"/ id = "blueFish" style = "visibility: hidden;">
-		<img src = "<c:url value="/resources/images/shark-icon.png" />"/ id = "shark" style = "visibility: hidden;">
-		<img src = "<c:url value="/resources/images/starfish.png" />"/ id = "starfish" style = "visibility: hidden;">
-		<script>
-				paintAquarium();
-		</script>
+		<script type="text/javascript">
+                  var aquarium = new Aquarium(5, 5, 1200, 1000)
+                  var fish1 = new CurveFish(100, 20, 30);
+                  var fish2 = new LinearFish(200, 100, 40);
+                  var star1 = new Star(500, 300);
+                  var fish3 = new CurveFish(800, 500, 60);
+                  var star2 = new Star(1000, 700);
+                  var fish4 = new LinearFish(50, 800, 25);
+                  var fish5 = new CurveFish(10, 950, 50);
+
+                  aquarium.addInhabitant(fish1);
+                  aquarium.addInhabitant(fish2);
+                  aquarium.addInhabitant(star1);
+                  aquarium.addInhabitant(fish3);
+                  aquarium.addInhabitant(star2);
+                  aquarium.addInhabitant(fish4);
+                  aquarium.addInhabitant(fish5);
+
+                  aquarium.drawInhabitants();
+                  aquarium.startMoving();
+        </script>
 </body>
 </html>
