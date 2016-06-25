@@ -25,14 +25,9 @@ public class HelloController {
 		return new ModelAndView("aquarium");
 	}
 
-	@RequestMapping(value = "/lesson2", method = RequestMethod.GET)
-	public String showLesson2() {
-		return "lesson2";
-	}
-
-	@RequestMapping(value = "/lesson3", method = RequestMethod.GET)
+	@RequestMapping(value = "/oop", method = RequestMethod.GET)
 	public String showLesson3() {
-		return "lesson3";
+		return "oop";
 	}
 
 	@RequestMapping(value = "/lesson4", method = RequestMethod.GET)
