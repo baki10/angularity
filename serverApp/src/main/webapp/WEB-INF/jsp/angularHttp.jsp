@@ -4,15 +4,30 @@
 <head>
     <title>Angular Time</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <style>
+        table, th , td {
+          border: 1px solid grey;
+          border-collapse: collapse;
+          padding: 5px;
+        }
+        table tr:nth-child(odd) {
+          background-color: #f1f1f1;
+        }
+        table tr:nth-child(even) {
+          background-color: #ffffff;
+        }
+    </style>
 </head>
 <body>
     <div ng-app="myApp" ng-controller="customersCtrl">
 
-    <ul>
-      <li ng-repeat="x in myData | orderBy:'Country'">
-        {{ x.Name + ', ' + x.Country }}
-      </li>
-    </ul>
+    <table>
+        <tr ng-repeat="x in myData | orderBy:'Country'">
+            <td>{{ $index + 1 }}</td>
+            <td>{{ x.Name }}</td>
+            <td>{{ x.Country | uppercase}}</td>
+        </tr>
+    </table>
 
     </div>
 
