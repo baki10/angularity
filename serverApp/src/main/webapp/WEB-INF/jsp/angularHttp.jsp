@@ -34,7 +34,7 @@
     <script>
     var app2 = angular.module('myApp', []);
     app2.controller('customersCtrl', function($scope, $http) {
-        $http.get("http://localhost:8080/serverApp/angularPage/customers").then(function(response) {
+        $http.get("<c:url value="/angularPage/customers" />").then(function(response) {
             $scope.myData = response.data.records;
         });
     });
