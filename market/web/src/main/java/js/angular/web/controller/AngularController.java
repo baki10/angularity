@@ -28,4 +28,9 @@ public class AngularController {
 		return "angularSearch";
 	}
 
+	@RequestMapping(value = "/angular4", method = RequestMethod.GET)
+	public String sort() {
+		return "angularSort";
+	}
+
 }

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularPage.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" afterPath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
     </list>
     <ignored path="angularity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,11 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AngularController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AngularController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularSort.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sortNamesCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -139,8 +161,8 @@
       <file leaf-file-name="angularMainPage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -2051,9 +2073,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/EntityClassConsumer.java" />
-        <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/SimpleDao.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/PlayerDao.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/service/HelloWorldServiceImpl.java" />
@@ -2102,6 +2121,9 @@
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSearch.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js" />
         <option value="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp" />
       </list>
     </option>
   </component>
@@ -2946,12 +2968,19 @@
       <option name="project" value="LOCAL" />
       <updated>1466925473038</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="angular basics: refactor">
+      <created>1466925537710</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1466925537710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2960,7 +2989,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5027451" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36935484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36935484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4972549" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2999,7 +3028,8 @@
     <MESSAGE value="js oop" />
     <MESSAGE value="angular basics: todo list" />
     <MESSAGE value="angular basics: search" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular basics: search" />
+    <MESSAGE value="angular basics: refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular basics: refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3008,21 +3038,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/market/server/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/SimpleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/PlayerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -3368,14 +3383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -3392,10 +3399,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
