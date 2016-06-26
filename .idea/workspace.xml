@@ -98,8 +98,8 @@
       <file leaf-file-name="angularHttp.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -2998,7 +2998,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466960807775</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="angular basics: css table">
+      <created>1466961331068</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1466961331068</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3054,7 +3061,8 @@
     <MESSAGE value="angular basics: refactor" />
     <MESSAGE value="angular basics: sort filter" />
     <MESSAGE value="angular basics: http service, get json object from server" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular basics: http service, get json object from server" />
+    <MESSAGE value="angular basics: css table" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular basics: css table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3463,8 +3471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
