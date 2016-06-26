@@ -23,4 +23,9 @@ public class AngularController {
 		return "angularToDo";
 	}
 
+	@RequestMapping(value = "/angular3", method = RequestMethod.GET)
+	public String search() {
+		return "angularSearch";
+	}
+
 }

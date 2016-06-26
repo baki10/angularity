@@ -7,5 +7,7 @@
     <a href="angularPage/angular1">Angular Basic</a>
     <hr/>
     <a href="angularPage/angular2">Angular ToDo list</a>
+    <hr/>
+    <a href="angularPage/angular3">Angular Search</a>
 </body>
 </html>
