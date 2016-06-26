@@ -10,7 +10,7 @@ public class AngularController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String main() {
-		return "angularPage";
+		return "angularMainPage";
 	}
 
 	@RequestMapping(value = "/angular1", method = RequestMethod.GET)
