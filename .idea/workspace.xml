@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularTime.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" afterPath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
@@ -84,35 +84,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/HelloController.java">
+      <file leaf-file-name="AngularController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="1445">
+              <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AngularController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java">
+      <file leaf-file-name="angularHttp.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angularSort.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularBasic.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="16" selection-start-column="9" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularSort.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -138,21 +172,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js">
+      <file leaf-file-name="angularTime.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularTime.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angularToDo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularToDo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -161,28 +185,8 @@
       <file leaf-file-name="angularMainPage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angularBasic.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/todo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -2073,8 +2077,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/PlayerDao.java" />
-        <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/service/HelloWorldServiceImpl.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/com/bakigoal/market/server/service/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/market/web/build.gradle" />
@@ -2120,10 +2122,12 @@
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularPage.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSearch.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js" />
-        <option value="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
-        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularTime.jsp" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
+        <option value="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" />
       </list>
     </option>
   </component>
@@ -2448,6 +2452,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webconf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2975,7 +2987,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466925537710</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="angular basics: sort filter">
+      <created>1466926100640</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1466926100640</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3029,7 +3048,8 @@
     <MESSAGE value="angular basics: todo list" />
     <MESSAGE value="angular basics: search" />
     <MESSAGE value="angular basics: refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular basics: refactor" />
+    <MESSAGE value="angular basics: sort filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular basics: sort filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3038,21 +3058,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/PlayerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/db/src/main/java/js/angular/market/db/changelogs/testChangelog.xml" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -3235,14 +3240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="23" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3296,18 +3293,6 @@
         <state relative-caret-position="-850">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3375,14 +3360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -3391,26 +3368,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSearch.jsp">
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularTime.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/web/src/main/resources/webconf/webContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="16" selection-start-column="9" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="1445">
+          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSearch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -3425,8 +3450,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSort.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
