@@ -41,7 +41,40 @@
         <hr>
         <h1 ng-mousemove="myFunc($event)">Mouse Over Me!</h1>
         <p>Coordinates: {{x1 + ', ' + y1}}</p>
+        <hr>
 
+        <form>
+          Pick a topic:
+          <input type="radio" ng-model="myVar" value="dogs">Dogs
+          <input type="radio" ng-model="myVar" value="tuts">Tutorials
+          <input type="radio" ng-model="myVar" value="cars">Cars
+        </form>
+        <form>
+          Select a topic:
+          <select ng-model="myVar">
+            <option value="">
+            <option value="dogs">Dogs
+            <option value="tuts">Tutorials
+            <option value="cars">Cars
+          </select>
+        </form>
+
+        <div ng-switch="myVar">
+          <div ng-switch-when="dogs">
+             <h1>Dogs</h1>
+             <p>Welcome to a world of dogs.</p>
+          </div>
+          <div ng-switch-when="tuts">
+             <h1>Tutorials</h1>
+             <p>Learn from examples.</p>
+          </div>
+          <div ng-switch-when="cars">
+             <h1>Cars</h1>
+             <p>Read about cars.</p>
+          </div>
+        </div>
+
+        <!-- start script -->
         <script>
             var app = angular.module("myApp", []);
             app.directive("w3TestDirective", function() {
@@ -66,6 +99,7 @@
                 }
             });
         </script>
+        <!-- end script -->
 
         <hr>
         <form ng-app="app2" name="myForm">
