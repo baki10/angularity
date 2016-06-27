@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp" />
     </list>
     <ignored path="angularity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angularHttp.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularHttp.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angularBasic.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angularBasic.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="305">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -2115,7 +2115,6 @@
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularTabs.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/names.js" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularToDo.jsp" />
-        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularPage.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularSearch.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/search.js" />
@@ -2125,6 +2124,7 @@
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularMainPage.jsp" />
         <option value="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/AngularController.java" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp" />
       </list>
     </option>
   </component>
@@ -3012,7 +3012,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466963378736</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="c url tag">
+      <created>1466965308731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1466965308731</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3069,7 +3076,8 @@
     <MESSAGE value="angular basics: sort filter" />
     <MESSAGE value="angular basics: http service, get json object from server" />
     <MESSAGE value="angular basics: css table" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular basics: css table" />
+    <MESSAGE value="c url tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="c url tag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3420,14 +3428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/sortNamesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -3480,6 +3480,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding />
         </state>
       </provider>

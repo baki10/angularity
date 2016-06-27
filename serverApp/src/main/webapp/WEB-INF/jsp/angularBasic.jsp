@@ -17,6 +17,14 @@
         <w3-test-directive></w3-test-directive>
         <hr>
         <h1>Price: {{ price | currency }}</h1>
+        <hr>
+        <p>Select a car:</p>
+        <select ng-model="selectedCar" ng-options="y.brand for (x, y) in cars">
+        </select>
+
+        <h1>You selected: {{selectedCar.brand}}</h1>
+        <h2>Model: {{selectedCar.model}}</h2>
+        <h3>Color: {{selectedCar.color}}</h3>
 
         <script>
             var app = angular.module("myApp", []);
@@ -27,6 +35,11 @@
             });
             app.controller('myCtrl', function($scope) {
                 $scope.price = 58;
+                $scope.cars = {
+                    car01 : {brand : "Ford", model : "Mustang", color : "red"},
+                    car02 : {brand : "Fiat", model : "500", color : "white"},
+                    car03 : {brand : "Volvo", model : "XC90", color : "black"}
+                }
             });
         </script>
 
