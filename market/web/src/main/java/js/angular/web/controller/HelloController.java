@@ -1,6 +1,6 @@
 package js.angular.web.controller;
 
-import js.angular.common.HelloWorldService;
+import js.angular.server.service.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

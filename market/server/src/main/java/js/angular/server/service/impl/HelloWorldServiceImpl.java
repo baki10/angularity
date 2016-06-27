@@ -1,9 +1,8 @@
-package js.angular.server.service;
+package js.angular.server.service.impl;
 
-import js.angular.common.HelloWorldService;
 import js.angular.server.dao.PlayerDao;
-import js.angular.server.dao.SimpleDao;
 import js.angular.server.dao.entity.Player;
+import js.angular.server.service.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,8 +18,6 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 
 	@Autowired
 	private PlayerDao playerDao;
-	@Autowired
-	private SimpleDao simpleDao;
 
 	private static final String message = "Hello, %s!!!!!";
 

@@ -1,5 +1,4 @@
 dependencies {
-  compile project(':market:common')
 
   compile group: 'org.springframework', name: 'spring-orm', version: rootProject.ext.springVersion
   compile group: 'org.springframework', name: 'spring-jdbc', version: rootProject.ext.springVersion

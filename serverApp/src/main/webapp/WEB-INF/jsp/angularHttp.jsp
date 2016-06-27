@@ -1,27 +1,17 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<html>
+<html ng-app="myApp">
 <head>
     <title>Angular Table</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <style>
-        table, th , td {
-          border: 1px solid grey;
-          border-collapse: collapse;
-          padding: 5px;
-        }
-        table tr:nth-child(odd) {
-          background-color: #f1f1f1;
-        }
-        table tr:nth-child(even) {
-          background-color: #ffffff;
-        }
-    </style>
+
+    <link rel="stylesheet" href="<c:url value="/resources/css/table.css"/>">
 </head>
 <body>
-    <div ng-app="myApp" ng-controller="customersCtrl">
+    <div ng-controller="customersCtrl">
 
     <table>
+        <caption>Table from JSON string</caption>
         <tr ng-repeat="x in myData | orderBy:'Country'">
             <td>{{ $index + 1 }}</td>
             <td>{{ x.Name }}</td>
@@ -31,15 +21,33 @@
 
     </div>
 
+    <br>
+    <div ng-controller="sqlController">
+
+    <table>
+        <caption>Table from database(as JSON objects)</caption>
+        <tr ng-repeat="x in players | orderBy:'firstName'">
+            <td>{{ $index + 1 }}</td>
+            <td>{{ x.firstName }}</td>
+            <td>{{ x.lastName | uppercase}}</td>
+        </tr>
+    </table>
+
+    </div>
+
     <script>
-    var app2 = angular.module('myApp', []);
-    app2.controller('customersCtrl', function($scope, $http) {
-        $http.get("<c:url value="/angularPage/customers" />").then(function(response) {
+    var app = angular.module('myApp', []);
+    app.controller('customersCtrl', function($scope, $http) {
+        $http.get("<c:url value="/rest/customers" />").then(function(response) {
             $scope.myData = response.data.records;
         });
     });
-    </script>
+    app.controller('sqlController', function($scope, $http) {
+        $http.get("<c:url value="/rest/players" />").then(function(response) {
+            $scope.players = response.data;
+        });
 
-</body>
+    });
+    </script>
 </body>
 </html>

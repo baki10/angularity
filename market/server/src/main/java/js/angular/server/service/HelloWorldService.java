@@ -1,4 +1,4 @@
-package js.angular.common;
+package js.angular.server.service;
 
 /**
  * Created by ilmir on 02.06.16.
