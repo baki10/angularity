@@ -9,7 +9,6 @@ data-test/
 .gradle
 gradle.bat
 build
-classes
 /local/
 *.log
 /indexes
@@ -20,4 +19,4 @@ Thumbs.db
 .idea/libraries/
 .idea/modules/
 .idea/uiDesigner.xml
-.idea/workspace.xml
+*workspace.xml
