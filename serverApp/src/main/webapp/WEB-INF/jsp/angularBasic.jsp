@@ -25,6 +25,22 @@
         <h1>You selected: {{selectedCar.brand}}</h1>
         <h2>Model: {{selectedCar.model}}</h2>
         <h3>Color: {{selectedCar.color}}</h3>
+        <hr>
+        <p>
+            <button ng-disabled="mySwitch">Click Me!</button>
+            <p ng-show="mySwitch">I am ng-show.</p>
+            <p ng-hide="!mySwitch">I am ng-hide.</p>
+        </p>
+        <p>
+            <input type="checkbox" ng-model="mySwitch"/>Disable
+        </p>
+        <hr>
+        <h1 ng-mousemove="count = count + 1">Mouse Over Me!</h1>
+        <button ng-click="myFunction()">Click me!</button>
+        <h2>{{ count }}</h2>
+        <hr>
+        <h1 ng-mousemove="myFunc($event)">Mouse Over Me!</h1>
+        <p>Coordinates: {{x1 + ', ' + y1}}</p>
 
         <script>
             var app = angular.module("myApp", []);
@@ -39,6 +55,14 @@
                     car01 : {brand : "Ford", model : "Mustang", color : "red"},
                     car02 : {brand : "Fiat", model : "500", color : "white"},
                     car03 : {brand : "Volvo", model : "XC90", color : "black"}
+                }
+                $scope.count = 0;
+                $scope.myFunction = function() {
+                    $scope.count++;
+                }
+                $scope.myFunc = function(myE) {
+                    $scope.x1 = myE.clientX;
+                    $scope.y1 = myE.clientY;
                 }
             });
         </script>
