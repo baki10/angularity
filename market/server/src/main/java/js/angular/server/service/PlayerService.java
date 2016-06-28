@@ -9,4 +9,12 @@ import java.util.List;
  */
 public interface PlayerService {
 	List<Player> getAll();
+
+	Player getPlayerById(Long id);
+
+	Player addPlayer(Player player);
+
+	void updatePlayer(Player player);
+
+	void deletePlayer(Long id);
 }

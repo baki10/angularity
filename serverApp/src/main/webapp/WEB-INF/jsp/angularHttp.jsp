@@ -43,7 +43,7 @@
         });
     });
     app.controller('sqlController', function($scope, $http) {
-        $http.get("<c:url value="/rest/players" />").then(function(response) {
+        $http.get("<c:url value="/rest/player" />").then(function(response) {
             $scope.players = response.data;
         });
 
