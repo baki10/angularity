@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="angular event listeners">
+    <list default="true" id="607a4ace-1ded-4380-a0a0-5f95fac6d970" name="Default" comment="refactor">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular.ipr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular.iws" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___angular_market___serverApp_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___angular_market___serverApp_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___angular_market___serverApp_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___angular_market___serverApp_war__exploded_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/project.properties" afterPath="$PROJECT_DIR$/conf/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/server/build.gradle" afterPath="$PROJECT_DIR$/market/server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java" afterPath="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml" afterPath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/serverContext.xml" afterPath="$PROJECT_DIR$/market/server/src/main/resources/serverconf/serverContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/web/build.gradle" afterPath="$PROJECT_DIR$/market/web/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/MyRestController.java" afterPath="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/MyRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market/web/src/main/resources/webconf/webContext.xml" afterPath="$PROJECT_DIR$/market/web/src/main/resources/webconf/webContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/build.gradle" afterPath="$PROJECT_DIR$/serverApp/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/dispatcherContext.xml" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/dispatcherContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularREST.jsp" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularREST.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="angularity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,21 +85,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="300">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularREST.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularREST.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="183">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -142,7 +151,7 @@
       <file leaf-file-name="angularBasic.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="290">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="11" />
               <folding />
             </state>
@@ -2113,7 +2122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/market/server/src/main/resources/conf/project.properties" />
         <option value="$PROJECT_DIR$/market/server/src/main/resources/serverconf/serverContext.xml" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Person.java" />
         <option value="$PROJECT_DIR$/market/server/src/main/resources/serverconf/dataSourceContext.xml" />
@@ -2162,8 +2170,9 @@
         <option value="$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/RestController.java" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp" />
         <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java" />
+        <option value="$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularREST.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -2900,6 +2909,133 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2914,6 +3050,14 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -2988,6 +3132,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -3019,6 +3166,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -3077,6 +3230,22 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="false" name="angularity:serverApp [jettyStop]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -3126,7 +3295,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1458582176553</updated>
-      <workItem from="1467204680309" duration="622000" />
+      <workItem from="1467204680309" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore">
       <created>1466790499547</created>
@@ -3275,15 +3444,22 @@
       <option name="project" value="LOCAL" />
       <updated>1467051315717</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added property number to Player entity">
+      <created>1467205356845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1467205356845</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622000" />
+    <option name="totallyTimeSpent" value="996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3306,7 +3482,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3344,7 +3520,8 @@
     <MESSAGE value="config gitignore" />
     <MESSAGE value="angular rendering json objects from spring controller" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="added property number to Player entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="added property number to Player entity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3357,7 +3534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/lesson2.jsp" />
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/resources/js/lesson3.js" />
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/lesson3.jsp" />
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/lesson4.jsp">
@@ -3478,6 +3654,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="42" column="35" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3675,21 +3856,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/market/web/src/main/java/js/angular/web/controller/RestController.java" />
-    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularHttp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -3698,18 +3864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market/server/src/main/java/js/angular/server/dao/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="e#296#297#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -3724,6 +3882,38 @@
             <element signature="e#622#623#0" expanded="true" />
             <element signature="e#649#650#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularBasic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverApp/src/main/webapp/WEB-INF/jsp/angularREST.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

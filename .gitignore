@@ -19,4 +19,4 @@ Thumbs.db
 .idea/libraries/
 .idea/modules/
 .idea/uiDesigner.xml
-*workspace.xml
+/.idea/workspace.xml
