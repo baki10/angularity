@@ -16,5 +16,7 @@
     <a href="<c:url value="/angularPage/angular5" />">Angular Show time</a>
     <hr/>
     <a href="<c:url value="/angularPage/angular6" />">Angular Http</a>
+    <hr/>
+    <a href="<c:url value="/angularPage/angular7" />">Angular REST</a>
 </body>
 </html>

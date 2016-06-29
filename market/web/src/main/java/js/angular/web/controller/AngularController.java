@@ -44,6 +44,11 @@ public class AngularController {
 		return "angularHttp";
 	}
 
+	@RequestMapping(value = "/angular7", method = RequestMethod.GET)
+	public String rest() {
+		return "angularREST";
+	}
+
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public @ResponseBody String welcome() {
 		return "{\"message\":\"This Welcome Text is from spring controller\"}";

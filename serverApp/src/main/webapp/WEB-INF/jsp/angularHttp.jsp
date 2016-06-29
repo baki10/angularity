@@ -2,7 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html ng-app="myApp">
 <head>
-    <title>Angular Table</title>
+    <title>Angular HTTP</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 
     <link rel="stylesheet" href="<c:url value="/resources/css/table.css"/>">
