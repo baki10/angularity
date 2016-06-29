@@ -16,7 +16,4 @@ build
 
 #ignore thumbnails created by windows
 Thumbs.db
-.idea/libraries/
-.idea/modules/
-.idea/uiDesigner.xml
-/.idea/workspace.xml
+.idea/
