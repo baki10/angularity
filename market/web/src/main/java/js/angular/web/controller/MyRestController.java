@@ -47,6 +47,7 @@ public class MyRestController {
     }
     playerById.setFirstName(player.getFirstName());
     playerById.setLastName(player.getLastName());
+    playerById.setNumber(player.getNumber());
     playerService.updatePlayer(playerById);
     return playerById;
   }

@@ -46,6 +46,7 @@
             <element id="module-output" name="web_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/market/web/build/resources/main" />
           </element>
+          <element id="library" level="project" name="Gradle: jstl:jstl:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.2.5.RELEASE" />
           <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:2.5" />
@@ -53,7 +54,6 @@
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.3" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.12" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.3" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jstl/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -10,6 +10,7 @@ public class Player extends BaseEntity {
 
 	private String firstName;
 	private String lastName;
+	private Integer number;
 
 	public Player() {
 	}
@@ -28,5 +29,13 @@ public class Player extends BaseEntity {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public Integer getNumber() {
+		return number;
+	}
+
+	public void setNumber(Integer number) {
+		this.number = number;
 	}
 }

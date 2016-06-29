@@ -64,8 +64,20 @@
                     </div>
                 </div>
 
+
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="number">Number</label>
+                        <div class="col-md-7">
+                            <input type="number" ng-model="ctrl.player.number" id="number"
+                                   class="form-control input-sm"
+                                   placeholder="Enter number"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
                         <input type="submit" value="{{!ctrl.player.id ? 'Add Player' : 'Update Player'}}"
                                class="btn btn-primary btn-sm"
                                ng-disabled="myForm.$invalid">
@@ -88,6 +100,7 @@
                     <th>ID.</th>
                     <th>Name</th>
                     <th>lastName</th>
+                    <th>Number</th>
                     <th width="20%"></th>
                 </tr>
                 </thead>
@@ -96,6 +109,7 @@
                     <td><span ng-bind="u.id"></span></td>
                     <td><span ng-bind="u.firstName"></span></td>
                     <td><span ng-bind="u.lastName"></span></td>
+                    <td><span ng-bind="u.number"></span></td>
                     <td>
                         <button type="button" ng-click="ctrl.edit(u.id)" class="btn btn-success custom-width">
                             Edit
