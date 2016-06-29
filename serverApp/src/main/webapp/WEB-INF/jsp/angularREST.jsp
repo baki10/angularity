@@ -97,10 +97,10 @@
             <table class="table table-hover">
                 <thead>
                 <tr>
-                    <th>ID.</th>
-                    <th>Name</th>
-                    <th>lastName</th>
-                    <th>Number</th>
+                    <th width="20%">ID</th>
+                    <th width="20%">Name</th>
+                    <th width="20%">lastName</th>
+                    <th width="20%">Number</th>
                     <th width="20%"></th>
                 </tr>
                 </thead>
