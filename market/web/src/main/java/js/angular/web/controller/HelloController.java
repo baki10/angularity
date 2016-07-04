@@ -60,8 +60,6 @@ public class HelloController {
 
 	@RequestMapping(value = "/errorPage", method = RequestMethod.GET)
 	public String error(){
-		String s = null;
-		char c = s.charAt(0);
-		return s;
+		throw new NullPointerException("NPE");
 	}
 }
