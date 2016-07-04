@@ -1,4 +1,5 @@
 dependencies {
   compile project(':market:server')
   compile group: 'org.springframework', name: 'spring-webmvc', version: rootProject.ext.springVersion
+  compile 'javax.servlet:servlet-api:'+rootProject.ext.servletVersion
 }

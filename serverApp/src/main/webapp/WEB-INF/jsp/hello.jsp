@@ -22,5 +22,7 @@
     <a href="lesson5">AJAX</a>
     <hr/>
     <a href="angularPage">Angular</a>
+    <hr/>
+    <a href="errorPage">NPE</a>
 </body>
 </html>

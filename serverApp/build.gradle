@@ -12,7 +12,6 @@ jettyStop {
 dependencies {
   compile project(':market:server')
   compile project(':market:web')
-  compile 'javax.servlet:servlet-api:'+rootProject.ext.servletVersion
   compile group: 'jstl', name: 'jstl', version: '1.2'
   compile 'org.slf4j:jcl-over-slf4j:'+rootProject.ext.jclOverSlf4jVersion
   compile 'ch.qos.logback:logback-classic:'+rootProject.ext.logbackVersion
