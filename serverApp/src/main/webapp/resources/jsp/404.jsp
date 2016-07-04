@@ -9,6 +9,7 @@
 <body>
 
 <h2>Resource Not Found Error Occured, please contact support.</h2>
+<img src="resources/images/404.jpg" alt="404">
 
 </body>
 </html>

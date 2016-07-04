@@ -6,23 +6,35 @@
     <script src="<c:url value="/resources/js/menuScript.js" />"></script>
 </head>
 <body>
-    ${message}
-	<hr/>
-	<script>
-		addButton();
-	</script>
-	<div id = "menuList"></div>
-    <hr/>
-	<a href="oop">OOP</a>
-    <hr/>
-	<a href="<c:url value="/aquarium" />">Aquarium</a>
-    <hr/>
-    <a href="lesson4">Zamyikaniya</a>
-    <hr/>
-    <a href="lesson5">AJAX</a>
-    <hr/>
-    <a href="angularPage">Angular</a>
-    <hr/>
-    <a href="errorPage">NPE</a>
+${message}
+<hr/>
+<script>
+    addButton();
+</script>
+<div id="menuList"></div>
+<hr/>
+<ul>
+    <li>
+        <a href="oop">OOP</a>
+    </li>
+    <li>
+        <a href="<c:url value="/aquarium" />">Aquarium</a>
+    </li>
+    <li>
+        <a href="lesson4">Zamyikaniya</a>
+    </li>
+    <li>
+        <a href="lesson5">AJAX</a>
+    </li>
+    <li>
+        <a href="angularPage">Angular</a>
+    </li>
+    <li>
+        <a href="errorPage">NPE</a>
+    </li>
+    <li>
+        <a href="errorPage404">404</a>
+    </li>
+</ul>
 </body>
 </html>
